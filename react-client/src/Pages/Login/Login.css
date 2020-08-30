@@ -1,0 +1,40 @@
+.form-container {
+	max-width: 400px;
+}
+
+.form-container label {
+	display: block;
+	padding-left: 8px;
+	margin-top: 5px;
+}
+
+.form-container input {
+	padding: 14px 8px;
+	border: 0px;
+	background: #f1f3f6;
+	border-radius: 18px;
+	border: 2px solid #5c8aec;
+	transition: all 0.25s ease;
+	width: 100%;
+	opacity: 0.7;
+}
+
+.form-container input:focus {
+	opacity: 1;
+	outline: none;
+}
+
+.form-container button {
+	width: 100%;
+	margin-top: 16px;
+}
+
+.link {
+	color: #5c8aec;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
